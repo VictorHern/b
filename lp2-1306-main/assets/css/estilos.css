@@ -1,0 +1,20 @@
+input,i{
+    margin-bottom: 10px;
+}
+textarea{
+    resize: none;
+}
+.logoff{
+    position:fixed;
+    right: 0;
+    cursor: pointer;
+}
+
+body{
+    animation: loucura 10s linear;
+}
+
+@keyframes loucura {
+    0%{}
+    100%{transform: rotateY(360deg);}
+}
